@@ -78,6 +78,22 @@ body {
     gap: 24px;
 }
 
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    width: 1000px;
+}
+
+.attribution-text {
+    font-weight: bold;
+    color: #1F2937;
+    text-align:right;
+    width:1000px;
+    margin-top: 0;
+}
+
 .information-list li img {
     height: 150px;
     width: 150px;
@@ -96,14 +112,15 @@ body {
 
 .section.vertical {
     flex-direction: column;
-    padding-block: 24px;
+    padding-block: 48px;
     padding-inline: 24px;
 }
 
 #information-header {
     font-size:36px;
     font-weight: 800;
-    color: #1F2937
+    color: #1F2937;
+    padding: 0;
 }
 
 ul {
