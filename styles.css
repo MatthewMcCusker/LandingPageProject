@@ -18,30 +18,53 @@ body {
 .hero {
     flex-direction: column;
     flex-basis: 500px;
+    justify-content: center;
+    flex-grow: auto;
+    padding-block: 30px;
+    margin-right: auto;
 }
 
 .hero h1 {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAf8;
+    padding: 0px;
+    margin: 0px;
 }
 
 .hero p {
-    font-size:16px;
+    font-size: 16px;
     color: #E5E7EB;
+    width: 400px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .button {
+    margin-top: 10px;
+    padding: 8px 32px;
     background-color: #3882F6;
-    color: #E5E7EB;
+    color: #F9FAf8;
+    border-radius: 8px;
+    border-style: none;
+    font-weight: bold;
+}
+
+.hero-image {
+    max-width: 600px;
+    max-height: 250px;
+    height: auto;
+    width: auto;
 }
 
 .section {
     flex-basis: 1300px;
-    padding: 24px;
+    padding-inline: 24px;
+    padding-block: 128px;
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap:wrap;
 }
 
 ul {
