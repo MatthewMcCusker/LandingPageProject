@@ -12,6 +12,12 @@ ul {
     list-style-type: none;
 }
 
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
 nav ul {
     display: flex;
     background-color: #1F2937;
