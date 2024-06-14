@@ -110,6 +110,12 @@ body {
     font-size: 16px;
 }
 
+#copywrite {
+    padding-block: 16px;
+    color:#E5E7EB;
+}
+
+
 .section.vertical {
     flex-direction: column;
     padding-block: 48px;
